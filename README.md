@@ -13,9 +13,9 @@ chmod +x install_tools.sh
 ./install_tools
 ```
 *This will download the tools offered by Lightails, and may take a while! <br>
-4. Create persistent storage if you haven't already;
-5. Navigate to it via the terminal;
-6. Run the command below:
+4. Create persistent storage if you haven't already;<br>
+5. Navigate to it via the terminal;<br>
+6. Run the command below:<br>
 ```sh
 wget https://raw.githubusercontent.com/simplyYan/LightailsToolkit/refs/heads/main/open_lightails.sh
 chmod +x open_lightails.sh
