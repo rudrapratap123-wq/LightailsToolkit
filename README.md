@@ -1,9 +1,29 @@
 # LightailsToolkit
+
+## Method 1 (RECOMMENDED): Using persistent storage
+### Requirements
+- A persistent storage folder in TailsOS;
+
+## How to install
+1. Navigate to the persistent directory via the terminal; <br>
+2. Run the command below to download and start Lightails: <br>
+```sh
+wget https://raw.githubusercontent.com/simplyYan/LightailsToolkit/refs/heads/main/download_and_install.sh
+wget https://raw.githubusercontent.com/simplyYan/LightailsToolkit/refs/heads/main/globalize.sh
+chmod +x download_and_install.sh
+chmod +x globalize.sh
+./download_and_install
+``` 
+<br>
+*This command may take a while to process, as it downloads several packages!<br>
+3. Done! Now every time you start your system, just run the “globalize.sh” file from the persistent folder, and you'll be able to use all the pentest tools in any directory! You can also automate this process.<br>
+
+## Method 2: Using a USB stick
 ### Requirements
 - 1 pendrive specifically for installing Lightails;
 - A persistent storage folder in TailsOS;
 
-## How to install
+### How to install
 1. Plug a USB stick into your device (a USB stick specifically for this tool);<br>
 2. Navigate through the terminal to the directory of the pendrive;<br>
 3. Run the command below:<br>
