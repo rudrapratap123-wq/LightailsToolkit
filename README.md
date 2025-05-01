@@ -12,7 +12,7 @@ wget https://raw.githubusercontent.com/simplyYan/LightailsToolkit/refs/heads/mai
 wget https://raw.githubusercontent.com/simplyYan/LightailsToolkit/refs/heads/main/globalize.sh
 chmod +x download_and_install.sh
 chmod +x globalize.sh
-./download_and_install
+./download_and_install.sh
 ``` 
 <br>
 *This command may take a while to process, as it downloads several packages!<br>
@@ -30,7 +30,7 @@ chmod +x globalize.sh
 ```sh
 wget https://raw.githubusercontent.com/simplyYan/LightailsToolkit/refs/heads/main/install_tools.sh
 chmod +x install_tools.sh
-./install_tools
+./install_tools.sh
 ```
 *This will download the tools offered by Lightails, and may take a while! <br>
 4. Create persistent storage if you haven't already;<br>
