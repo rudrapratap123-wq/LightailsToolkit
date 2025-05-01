@@ -12,7 +12,7 @@ wget https://raw.githubusercontent.com/simplyYan/LightailsToolkit/refs/heads/mai
 chmod +x install_tools.sh
 ./install_tools
 ```
-**This will download the tools offered by Lightails, and may take a while!
+*This will download the tools offered by Lightails, and may take a while! <br>
 4. Create persistent storage if you haven't already;
 5. Navigate to it via the terminal;
 6. Run the command below:
