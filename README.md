@@ -21,7 +21,7 @@ wget https://raw.githubusercontent.com/simplyYan/LightailsToolkit/refs/heads/mai
 chmod +x open_lightails.sh
 echo "<COMPLETE DIRECTORY OF YOUR USB STICK>" > ./lightconfig.txt
 ```
-*Replace '<COMPLETE DIRECTORY OF YOUR USB STICK>' with the correct directory of your USB stick <br>
+*Replace `<COMPLETE DIRECTORY OF YOUR USB STICK>` with the correct directory of your USB stick <br>
 7. That's it! Every time you start your TailsOS, just plug in the USB stick that Lightails has installed the tools on, and run the “open_lightails.sh” file from persistent storage so you can use all the tools offered by LightailsToolkit!
 
 ## Integrated tools
