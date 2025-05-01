@@ -4,9 +4,9 @@
 - A persistent storage folder in TailsOS;
 
 ## How to install
-1. Plug a USB stick into your device (a USB stick specifically for this tool);
-2. Navigate through the terminal to the directory of the pendrive;
-3. Run the command below:
+1. Plug a USB stick into your device (a USB stick specifically for this tool);<br>
+2. Navigate through the terminal to the directory of the pendrive;<br>
+3. Run the command below:<br>
 ```sh
 wget https://raw.githubusercontent.com/simplyYan/LightailsToolkit/refs/heads/main/install_tools.sh
 chmod +x install_tools.sh
@@ -21,7 +21,7 @@ wget https://raw.githubusercontent.com/simplyYan/LightailsToolkit/refs/heads/mai
 chmod +x open_lightails.sh
 echo "<COMPLETE DIRECTORY OF YOUR USB STICK>" > ./lightconfig.txt
 ```
-*Replace “<COMPLETE DIRECTORY OF YOUR USB STICK>” with the correct directory of your USB stick
+*Replace '<COMPLETE DIRECTORY OF YOUR USB STICK>' with the correct directory of your USB stick <br>
 7. That's it! Every time you start your TailsOS, just plug in the USB stick that Lightails has installed the tools on, and run the “open_lightails.sh” file from persistent storage so you can use all the tools offered by LightailsToolkit!
 
 ## Integrated tools
